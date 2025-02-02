@@ -6,6 +6,8 @@ import UserGreeting from './components/ConditionalRenderingDemo/UserGreeting'
 import ListExample1 from './components/RenderListsDemo/ListExample1'
 import ListObjectsExample from './components/RenderListsDemo/ListObjectsExample'
 import ListObjectParentToChild from './components/RenderListsDemo/ListObjectParentToChild'
+import Button from './components/ButtonClickEventDemo/Button'
+import ProfilePic from './components/ButtonClickEventDemo/ProfilePic'
 
 
 
@@ -42,6 +44,10 @@ function App() {
       <hr/>
       {fruitList.length > 0 ? <ListObjectParentToChild items={fruitList} category="Fruits"/> : null} ;
       {sportsList.length > 0 && <ListObjectParentToChild items={sportsList} category="Sports" /> };
+      <hr/>
+      <Button />
+      <hr />
+      <ProfilePic />
     </>
     
   )
