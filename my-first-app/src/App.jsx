@@ -8,6 +8,11 @@ import ListObjectsExample from './components/RenderListsDemo/ListObjectsExample'
 import ListObjectParentToChild from './components/RenderListsDemo/ListObjectParentToChild'
 import Button from './components/ButtonClickEventDemo/Button'
 import ProfilePic from './components/ButtonClickEventDemo/ProfilePic'
+import UseStateExample1 from './components/UseStateHookDemo/UseStateExample1'
+import CounterExample from './components/UseStateHookDemo/CounterExample'
+import OnChangeEventHandleDemo from './components/OnChangeEventHandlerDemo/OnChangeEventExample'
+import ColorPicker from './components/ColorPickerDemo/ColorPicker'
+import CounterUpdaterFunctionExample from './components/UpdaterFunctionDemo/CounterUpdaterFunctionExample'
 
 
 
@@ -48,6 +53,16 @@ function App() {
       <Button />
       <hr />
       <ProfilePic />
+      <hr />
+      <UseStateExample1 />
+      <hr />
+      <CounterExample />
+      <hr />
+      <OnChangeEventHandleDemo />
+      <hr />
+      <ColorPicker />
+      <hr />
+      <CounterUpdaterFunctionExample />
     </>
     
   )
