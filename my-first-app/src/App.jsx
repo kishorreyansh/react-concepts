@@ -13,6 +13,7 @@ import CounterExample from './components/UseStateHookDemo/CounterExample'
 import OnChangeEventHandleDemo from './components/OnChangeEventHandlerDemo/OnChangeEventExample'
 import ColorPicker from './components/ColorPickerDemo/ColorPicker'
 import CounterUpdaterFunctionExample from './components/UpdaterFunctionDemo/CounterUpdaterFunctionExample'
+import UpdateObjectExample from './components/UpdateObjectsInState/UpdateObjectExample'
 
 
 
@@ -63,6 +64,8 @@ function App() {
       <ColorPicker />
       <hr />
       <CounterUpdaterFunctionExample />
+      <hr />
+      <UpdateObjectExample />
     </>
     
   )
