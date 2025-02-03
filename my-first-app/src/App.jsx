@@ -14,6 +14,8 @@ import OnChangeEventHandleDemo from './components/OnChangeEventHandlerDemo/OnCha
 import ColorPicker from './components/ColorPickerDemo/ColorPicker'
 import CounterUpdaterFunctionExample from './components/UpdaterFunctionDemo/CounterUpdaterFunctionExample'
 import UpdateObjectExample from './components/UpdateObjectsInState/UpdateObjectExample'
+import UpdateArraysExample from './components/UpdateArraysInState/UpdateArraysExample'
+import UpdateArrayObjectExample from './components/UpdateArrayObjectsInState/UpdateArrayObjectExample'
 
 
 
@@ -66,6 +68,10 @@ function App() {
       <CounterUpdaterFunctionExample />
       <hr />
       <UpdateObjectExample />
+      <hr />
+      <UpdateArraysExample />
+      <hr />
+      <UpdateArrayObjectExample />
     </>
     
   )
