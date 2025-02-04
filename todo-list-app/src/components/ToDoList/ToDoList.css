@@ -1,0 +1,11 @@
+body{
+    background-color: hsl(0, 0%, 10%);
+}
+
+h2{
+    color: white;
+}
+
+.container {
+    margin-top: 20px !important; 
+}

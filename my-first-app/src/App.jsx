@@ -16,6 +16,10 @@ import CounterUpdaterFunctionExample from './components/UpdaterFunctionDemo/Coun
 import UpdateObjectExample from './components/UpdateObjectsInState/UpdateObjectExample'
 import UpdateArraysExample from './components/UpdateArraysInState/UpdateArraysExample'
 import UpdateArrayObjectExample from './components/UpdateArrayObjectsInState/UpdateArrayObjectExample'
+import UseEffectExample from './components/UseEffectDemo/UseEffectExample'
+import UseEffectExample2 from './components/UseEffectDemo/UseEffectExample2'
+import ComponentA from './components/UseContextDemo/ComponentA'
+import UseRefExample from './components/UseRefHookDemo/UseRefExample'
 
 
 
@@ -72,6 +76,14 @@ function App() {
       <UpdateArraysExample />
       <hr />
       <UpdateArrayObjectExample />
+      <hr />
+      <UseEffectExample />
+      <hr />
+      <UseEffectExample2 />
+      <hr />
+      <ComponentA />
+      <hr />
+      <UseRefExample />
     </>
     
   )
